@@ -28,10 +28,10 @@
   },
   "projects": {
     "nx-tools": {
-      "tags": []
+      "tags": ["type:app", "scope:nx-tools"]
     },
     "nx-tools-e2e": {
-      "tags": [],
+      "tags": ["type:e2e", "scope:nx-tools"],
       "implicitDependencies": ["nx-tools"]
     }
   },

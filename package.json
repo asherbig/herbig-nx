@@ -9,6 +9,7 @@
   },
   "private": true,
   "devDependencies": {
+    "@herbig-nx/nx-tools": "file:/Users/alexherbig/src/herbig-nx/dist/packages/nx-tools",
     "@nrwl/cli": "12.9.0",
     "@nrwl/devkit": "12.9.0",
     "@nrwl/eslint-plugin-nx": "12.9.0",

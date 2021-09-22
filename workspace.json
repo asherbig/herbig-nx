@@ -6,6 +6,13 @@
       "sourceRoot": "packages/nx-tools/src",
       "projectType": "library",
       "targets": {
+        "analyze-tags": {
+          "executor": "@herbig-nx/nx-tools:analyze-tags",
+          "options": {
+            "x": "type",
+            "y": "scope"
+          }
+        },
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "outputs": ["{options.outputFile}"],

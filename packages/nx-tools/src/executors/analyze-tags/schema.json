@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "cli": "nx",
+  "title": "Tag-analyzer",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "x": {
+      "type": "string",
+      "description": "the prefix for the tags you want to use as the x-axis output"
+    },
+    "y": {
+      "type": "string",
+      "description": "the prefix for the tags you want to use as the y-axis output"
+    }
+  },
+  "required": []
+}
